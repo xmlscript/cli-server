@@ -3,7 +3,7 @@
     "description": "router",
     "license": "MIT",
     "scripts": {
-      "start": "php -S localhost:8080 cli-server.php"
+      "start": "php -S localhost:8080 cli-server.php -p ../../../"
     },
     "authors": [
         {
