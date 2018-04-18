@@ -1,14 +1,15 @@
 {
-    "name": "xmlscript/cli-server",
-    "description": "router",
-    "license": "MIT",
-    "require": {
-      "xmlscript/page": "dev-master"
-    },
-    "authors": [
-        {
-            "name": "xmlscript",
-            "email": "xmlscript@gmail.com"
-        }
-    ]
+  "name": "xmlscript/cli-server",
+  "description": "router",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "xmlscript/page": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "xmlscript",
+      "email": "xmlscript@gmail.com"
+    }
+  ]
 }
