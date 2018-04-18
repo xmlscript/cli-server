@@ -10,7 +10,7 @@ $tpl = $_SERVER['DOCUMENT_ROOT'].'/vendor'.DIRECTORY_SEPARATOR.'xmlscript/tpl'.$
 //TODO 当前目录下都是缓存！！！！！！
 
 //TODO 如果根目录下存在PHP_SELF，则直接输出
-if(file_exists($tpl))
+if(is_file($tpl))
   require $tpl;//FIXME 如果是静态文件，会不会拖累IO效率
 else{
   http_response_code(404);
