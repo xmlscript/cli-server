@@ -2,8 +2,8 @@
     "name": "xmlscript/cli-server",
     "description": "router",
     "license": "MIT",
-    "scripts": {
-      "start": "php -S localhost:8080 cli-server.php -t ../../../"
+    "require": {
+      "xmlscript/page": "dev-master"
     },
     "authors": [
         {
